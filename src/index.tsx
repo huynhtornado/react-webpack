@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./components/Hello";
+import { Dashboard } from "./components/dashboard";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <Dashboard compiler={"Reactjs"} framework={"React-webpack"} />,
     document.getElementById("example")
 );

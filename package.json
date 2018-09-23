@@ -2,7 +2,7 @@
   "name": "react-webpack",
   "version": "1.0.0",
   "description": "react-webpack",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/huynhtornado/react-webpack.git"
   },
+  "keywords": [],
   "author": "Huỳnh Nhã Tuấn",
   "license": "ISC",
   "bugs": {

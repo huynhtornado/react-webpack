@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bo-dy{
+    width: 100%;
+    height: 100%;
+}
+.header-button{
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.header-button button{
+    padding: 10px 35px;
+    margin: 10px 20px;
+}
+
+.content-node{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
