@@ -1,0 +1,42 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "react-webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhtornado/react-webpack.git"
+  },
+  "author": "Huỳnh Nhã Tuấn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huynhtornado/react-webpack/issues"
+  },
+  "homepage": "https://github.com/huynhtornado/react-webpack#readme",
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
