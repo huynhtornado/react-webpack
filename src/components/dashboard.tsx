@@ -24,14 +24,14 @@ export class Dashboard extends React.Component<HelloProps, {}> {
         })
     };
 
-    eachCompnent = (text, i) => {
-        // const Node = this.state.datas[i].config
+    eachCompnent = (i) => {
+        const idNode = this.state.datas[i].id;
         return (
-            <CreateNode key={i}>
-                {text}
+            <CreateNode key={i} id={idNode}>
             </CreateNode>
         );
     }
+
 
     render() {
         const nodeMessage = this.state.node;

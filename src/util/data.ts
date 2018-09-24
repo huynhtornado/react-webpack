@@ -10,7 +10,7 @@ export const data = {
                     "hi"
                 ]
             },
-            id: 1
+            id: "1"
         },
         {
             config: {
@@ -22,7 +22,7 @@ export const data = {
                     "hi"
                 ]
             },
-            id: 2
+            id: "2"
         },
         {
             config: {
@@ -34,7 +34,7 @@ export const data = {
                     "hi"
                 ]
             },
-            id: 4
+            id: "4"
         },
         {
             config: {
@@ -46,7 +46,7 @@ export const data = {
                     "hi"
                 ]
             },
-            id: 6
+            id: "6"
         }
     ]
 }
